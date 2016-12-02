@@ -1,0 +1,16 @@
+----- Only webpack -----
+https://angular.io/docs/ts/latest/guide/webpack.html
+https://github.com/preboot/angular2-webpack
+
+----- Uses NPM as task runner -----
+https://semaphoreci.com/community/tutorials/setting-up-angular-2-with-webpack
+https://advancedweb.hu/2016/02/02/the-first-steps-from-grunt-to-webpack/
+
+http://stackoverflow.com/questions/35062852/npm-vs-bower-vs-browserify-vs-gulp-vs-grunt-vs-webpack
+NPM
+"build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+"start": "webpack-dev-server --inline --progress --port 8080",
+
+Load Zone.js early, immediately after the other ES6 and metadata shims
+
+https://github.com/AngularClass/angular2-webpack-starter
