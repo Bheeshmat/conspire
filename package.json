@@ -33,6 +33,7 @@
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
+    "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-exec": "^1.0.1",
     "html-loader": "^0.4.3",
